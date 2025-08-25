@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wifi ve IT Çözümleri</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Camping & IT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#info">Info</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>
+                <h1>Profesyonel Wifi & IT Çözümleri</h1>
+            </h1>
+            <p>Küçük İşletmeler İçin Profesyonel Wi-Fi, IT hizmeti ve Dijital çözümler </p>
+            <a href="#services">Explore Services</a>
+        </div>
+    </section>
+
+
+    <!-------blog-->
+
+
+    <section class="blog-detail">
+        <div class="container">
+            <h1 class="blog-title">5651 Uyumlu Loglama Nasıl Yapılır?</h1>
+            <p class="blog-date">19 Ağustos 2025</p>
+            <img src="images/blog1.jpg" alt="Blog 1" class="blog-image">
+            <div class="blog-text">
+                <p>5651 sayılı Kanun gereği internet sağlayıcıları ve içerik üreticileri belirli logları saklamak
+                    zorundadır...</p>
+                <p>Loglama sürecinde izlenmesi gereken adımlar, teknik altyapı ve saklama süreleri şöyle
+                    özetlenebilir...</p>
+                <p>...</p>
+            </div>
+            <div class="blog-tags">
+                <span>#Loglama</span>
+                <span>#5651Kanunu</span>
+                <span>#ITGüvenlik</span>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--referanslar-->
+    <section class="referanslar">
+        <h2>Referanslarımız</h2>
+        <div class="referans-grid">
+            <div class="referans-card">
+
+                <p>"Profesyonel hizmet, hızlı çözüm ve güvenilir altyapı."</p>
+                <span>- Müşteri 1</span>
+            </div>
+            <div class="referans-card">
+
+                <p>"İş akışımız artık kesintisiz ve izlenebilir."</p>
+                <span>- Müşteri 2</span>
+            </div>
+            <div class="referans-card">
+
+                <p>"IT altyapımızı tamamen güvenli bir şekilde yönettikleri için teşekkürler."</p>
+                <span>- Müşteri 3</span>
+            </div>
+            <!-- Daha fazla referans ekleyebilirsin -->
+        </div>
+    </section>
+
+    <section class="iletisim" id="form_gonder">
+        <h2>İletişim</h2>
+        <p>Bizimle iletişime geçmek için formu doldurun. En kısa sürede size dönüş yapacağız.</p>
+        <form action="sendmail.php" method="POST">
+            <div class="form-group">
+                <label for="isim">Adınız Soyadınız</label>
+                <input type="text" id="isim" name="isim" placeholder="Adınızı yazın" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-posta</label>
+                <input type="email" id="email" name="email" placeholder="E-posta adresinizi yazın" required>
+            </div>
+            <div class="form-group">
+                <label for="konu">Konu</label>
+                <input type="text" id="konu" name="konu" placeholder="Konu yazın" required>
+            </div>
+            <div class="form-group">
+                <label for="mesaj">Mesajınız</label>
+                <textarea id="mesaj" name="mesaj" placeholder="Mesajınızı yazın" rows="5" required></textarea>
+            </div>
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container text-center text-md-start">
+            <div class="row">
+
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase">Camping & IT</h5>
+                    <p>Profesyonel IT çözümleri ve kamp malzemeleri ile işletmenizi veya maceranızı güçlendirin.</p>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase">İletişim</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> İstanbul, Türkiye</p>
+                    <p><i class="fas fa-phone me-2"></i> +90 123 456 7890</p>
+                    <p><i class="fas fa-envelope me-2"></i> info@campingit.com</p>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase">Sosyal Medya</h5>
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-linkedin fa-lg"></i></a>
+                </div>
+
+            </div>
+
+            <hr class="mb-4" style="border-top: 1px solid rgba(255,255,255,0.2)">
+
+            <div class="text-center">
+                &copy; 2025 Camping & IT. Tüm Hakları Saklıdır.
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>
