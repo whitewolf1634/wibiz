@@ -4,30 +4,42 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Wifi ve IT Çözümleri</title>
+   <head>
+  <!-- Temel Meta Etiketleri -->
+  <title>Hakkımızda | Wi-Fi & IT Çözümleri | Wibiz</title>
+  <meta name="description" content="Wibiz olarak butik oteller, apartlar, okullar ve işletmeler için profesyonel Wi-Fi, ağ güvenliği ve IT çözümleri sunuyoruz. Hakkımızda detaylı bilgi edinin.">
+  <meta name="keywords" content="hakkımızda, wifi çözümleri, it çözümleri, profesyonel internet, işletme ağı, wibiz, unifi, mikrotik, ağ güvenliği">
+  <meta name="author" content="Wibiz Teknoloji">
+
+  <!-- Open Graph (Facebook & LinkedIn) -->
+  <meta property="og:title" content="Hakkımızda | Wi-Fi & IT Çözümleri | Wibiz">
+  <meta property="og:description" content="Profesyonel Wi-Fi, ağ güvenliği ve IT çözümleriyle işletmeler için kesintisiz internet. Wibiz hakkında daha fazla bilgi alın.">
+  <meta property="og:url" content="https://www.wibiz.com/hakkimizda-wifi-it-cozumleri">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.wibiz.com/images/hakkimizda-banner.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hakkımızda | Wi-Fi & IT Çözümleri | Wibiz">
+  <meta name="twitter:description" content="Küçük işletmeler için Wi-Fi, IT hizmetleri ve dijital çözümler. Wibiz ile kesintisiz internet ve güvenli ağ altyapısı.">
+  <meta name="twitter:image" content="https://www.wibiz.com/images/hakkimizda-banner.jpg">
+
+  <!-- Mobil ve SEO Dostu -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://www.wibiz.com/hakkimizda-wifi-it-cozumleri">
+</head>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+<?php 
 
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Camping & IT</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#info">Info</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+include "inc/navbar.php";
+
+?>
 
     <!-- HERO -->
     <section class="hero" id="home">
@@ -46,115 +58,65 @@
 
     <section class="blog-detail">
         <div class="container">
-            <h1 class="blog-title">5651 Uyumlu Loglama Nasıl Yapılır?</h1>
-            <p class="blog-date">19 Ağustos 2025</p>
+            <h1 class="blog-title">Hakkımızda</h1>
+         
 
             <div class="blog-text">
-                <p>5651 sayılı “İnternet Ortamında Yapılan Yayınların Düzenlenmesi ve Bu Yayınlar Yoluyla İşlenen
-                    Suçlarla Mücadele Edilmesi Hakkında Kanun”, internet erişimi sağlayan kurumlar ve içerik sunucuları
-                    için trafik bilgilerini saklama yükümlülüğü getirmektedir. Bu kanun, özellikle internet kafeler,
-                    şirketler, üniversiteler, kamu kurumları ve servis sağlayıcılar için zorunlu bir çerçeve sunar.</p>
+                <p>Biz, küçük işletmelerden butik otellere, apart otellerden ofislere kadar farklı sektörlere özel Wi-Fi, IT çözümleri ve dijital hizmetler sunan bir teknoloji ekibiyiz. Amacımız, işletmelerin hem güvenli hem de kesintisiz bir internet altyapısına sahip olmasını sağlamak, aynı zamanda dijital dünyada görünürlüklerini artırmaktır.</p>
                 <p>Loglama sürecinde izlenmesi gereken adımlar, teknik altyapı ve saklama süreleri şöyle
                     özetlenebilir...</p>
-                <h2>Neden Loglama Zorunludur?</h2>
+                <h2>Neler Yapıyoruz?</h2>
+               
                 <ul>
-                    <li>İnternet üzerinden işlenen suçların tespit edilmesi</li>
+                    <li> <strong>Profesyonel Wi-Fi Çözümleri:</strong>
+MikroTik ve UniFi cihazlarıyla işletmenize özel, hızlı ve güvenli ağlar kuruyoruz.
+Birden fazla internet hattını birleştirerek yüksek performanslı ve kesintisiz bağlantı sağlıyoruz.</li>
 
-                    <li>İnternet üzerinden işlenen suçların tespit edilmesi</li>
+                    <li><strong>Ağ Güvenliği ve Yönetimi:</strong>
+5651 kanununa uyumlu loglama, içerik filtreleme, misafir ağı ve güvenlik duvarı yapılandırmaları ile işletmenizin ağını koruyoruz.</li>
+<li><strong>IT Desteği:</strong>
+Yazıcı, bilgisayar, sunucu ve işletim sistemi desteğiyle, işletmenizin bilgi işlem altyapısını güvenle yönetiyoruz.</li>
+<li><strong>Dijital Çözümler:</strong>
+    Modern web tasarımı, QR menü sistemleri ve Google işletme kaydı gibi hizmetlerle markanızı dijital dünyada güçlendiriyoruz.</li>
+<li>
+    <strong>İzleme ve Raporlama:</strong>
+Zabbix & Grafana entegrasyonları sayesinde internet ve sistem performansınızı anlık takip edebilir, raporlama alabilirsiniz.
+</li>
 
-                    <li>İnternet üzerinden işlenen suçların tespit edilmesi</li>
-                    <li>
-                        Kullanıcı hareketlerinin kayıt altına alınması</li>
+                </ul>
 
-                    <li>Yasal mercilere delil sunulabilmesi
+                <h3>Neden Biz?</h3>
+                <ul>
 
+
+                    <li >İşletmenize özel çözümler</li>
+                    <li>Deneyimli teknik ekip
                     </li>
-
-                    <li> Kurumsal bilgi güvenliği ve şeffaflık sağlanması</li>
-
-
-
-
+                    <li>Hızlı destek ve profesyonel kurulum</li>
+<li>Güvenli ve ölçeklenebilir altyapı</li>
+<li>Mutlu müşteriler, güçlü referanslar</li>
                 </ul>
 
-                <h3>Loglama Sürecinde İzlenmesi Gereken Adımlar</h3>
-                <ul>
-
-
-                    <li>Erişim sağlayıcılar, kullanıcıların IP, MAC adresi, erişim zamanı, yönlendirme bilgisi gibi
-                        verilerini toplamalıdır.</li>
-                    <li>Web sunucuları, ziyaret edilen sayfalar, zaman damgaları ve kaynak IP bilgilerini kaydetmelidir.
-                    </li>
-
-                </ul>
-
-                <h4>Logların Saklanması</h4>
-                <ul>
-
-
-                    <li>Loglar en az 1 yıl, erişim sağlayıcılar için ise 2 yıl süreyle saklanmalıdır.</li>
-                    <li>Saklama sırasında loglar şifrelenmeli, bütünlük kontrolü yapılmalı ve yetkisiz erişim
-                        engellenmelidir.
-                    </li>
-
-                </ul>
-
-                <h5>Denetim ve Raporlama</h5>
-
-                <ul>
-                    <li>
-                        Düzenli olarak logların varlığı ve bütünlüğü denetlenmelidir.</li>
-
-                    <li>İstenildiğinde BTK, mahkeme veya kolluk kuvvetlerine sunulabilecek şekilde arşivlenmelidir.</li>
-                </ul>
-
-                <h6>Teknik Altyapı Önerileri</h6>
-
-
-                <ul>
-                    <li><strong>Firewall & Router:</strong> Trafik kayıtlarını syslog üzerinden merkezi log sunucusuna
-                        gönderebilir.</li>
-
-                    <li> <strong> Syslog Sunucusu (Linux/Windows):</strong> Tüm cihazlardan logları toplar.</li>
-                    <li>
-                        <strong> Zaman Damgası Hizmeti:</strong> TÜBİTAK KamuSM zaman damgası entegrasyonu yapılmalıdır.
-                    </li>
-                    <li>
-
-                        <strong> SIEM Çözümleri:</strong> Log korelasyonu, saldırı tespiti ve raporlama için
-                        kullanılabilir (ör. Graylog, ELK
-                        Stack, Splunk).
-                    </li>
-
-                </ul>
-
-
-                <strong>5651 Uyumlu Loglama İçin Dikkat Edilmesi Gerekenler</strong>
-                <ul>
-                    <li>Logların değiştirilmediğinin ispatı için imzalama yapılmalı</li>
-                    <li>Zaman senkronizasyonu (NTP) kullanılmalı</li>
-                    <li>Erişim sadece yetkili kişilerle sınırlandırılmalı</li>
-                    <li> Logların düzenli yedeklemesi alınmalı</li>
-                    <li>Gerektiğinde hızlıca erişilebilecek şekilde arşivlenmeli</li>
-
-                </ul>
-
-
-                <p>
-                    Sonuç olarak, 5651 uyumlu loglama sadece yasal bir zorunluluk değil, aynı zamanda kurumların bilgi
-                    güvenliği ve sorumluluk bilinci açısından kritik bir unsurdur. Doğru altyapı kurularak loglar
-                    güvenli şekilde toplanmalı, zaman damgasıyla imzalanmalı ve yasal süreler boyunca saklanmalıdır.
-                </p>
-
-
-            </div>
-            <div class="blog-tags">
-                <span>#Loglama</span>
-                <span>#5651Kanunu</span>
-                <span>#ITGüvenlik</span>
-            </div>
+<p>Bizim için en büyük başarı, müşterilerimizin kesintisiz internet ve güvenli IT altyapısı ile işlerini sorunsuz sürdürmeleridir.</p>
         </div>
     </section>
+
+
+ <?php 
+ 
+ include "hizmetler.php"
+ 
+ 
+ ?>
+
+
+
+
+
+
+
+
+
 
     <section class="referans">
 
@@ -168,7 +130,7 @@
                 <p>"Web tasarım hizmetinde isteğimize yönelik tasarım için ve gerekli google işletme kaydı oluşturma
                     destekleri için çok teşekkür ederiz."</p>
                 <strong>"Cereme Besi Çiftilği"</strong> <br>
-                <a class="btn btn-secondary" href="ceremekardeslerbesiciftligi.com">Ziyaret Et</a>
+                <a class="btn btn-secondary" target="_blank"  href="https://www.ceremekardeslerbesiciftligi.com/">Ziyaret Et</a>
             </div>
 
 
@@ -178,7 +140,7 @@
                     teşekkür
                     ederiz."</p>
                 <strong>"Şeker Aparments"</strong> <br>
-                <a class="btn btn-secondary" href="https://www.sekerapartments.com/">Ziyaret Et</a>
+                <a class="btn btn-secondary" target="_blank"  href="https://www.sekerapartments.com/">Ziyaret Et</a>
             </div>
 
             <div class="ref_box">

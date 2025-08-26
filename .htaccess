@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# index.php → /anasayfa
+RewriteRule ^anasayfa$ index.php [L]
+
+# adaklik.php → /adaklik
+RewriteRule ^adaklik$ adaklik.php [L]
+
+# hakkimizda.php → /hakkimizda-wifi-it-cozumleri
+RewriteRule ^hakkimizda-wifi-it-cozumleri$ hakkimizda.php [L]
+
+
+
+
+# etlikhizmeti.php → /etlikhizmeti
+RewriteRule ^etlikhizmeti$ etlikhizmeti.php [L]
+
+# iletisim.php → /iletisim
+RewriteRule ^iletisim$ iletisim.php [L]

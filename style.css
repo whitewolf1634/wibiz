@@ -41,7 +41,7 @@
     }
 
     .navbar-nav .nav-link:hover {
-        color: #EF476F !important;
+        color: #43BAFF !important;
     }
 
     /* HERO */
@@ -241,14 +241,20 @@
 
 
     .ref_box {
-        width: 18rem;
+        width: 20rem;
         background-color: #fafafa;
         align-items: center;
         justify-content: center;
         text-align: center;
         box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
         padding: 5rem 2rem;
-        border-radius: 0.3rem;
+        border-radius: 0.7rem;
+
+    }
+
+
+    .ref_box i {
+        color: #43BAFF;
 
     }
 
@@ -307,7 +313,7 @@
     }
 
     button[type="submit"] {
-        background-color: #574656;
+        background-color: #43BAFF;
         color: #fff;
         padding: 0.75rem 2rem;
         border: none;
@@ -318,7 +324,7 @@
     }
 
     button[type="submit"]:hover {
-        background-color: #3e2f3a;
+        background-color: #0d6699;
     }
 
     /* Responsive */
@@ -437,9 +443,11 @@
         font-size: 0.85rem;
     }
 
-
+    footer {
+        background-color: #0F172A;
+    }
 
     footer a:hover {
-        color: #FFD166 !important;
+        color: #43BAFF !important;
         text-decoration: none;
     }
